@@ -48,9 +48,7 @@ class App extends Component{
                 )
               })}
             </>
-
         ) : (
-
           <>
           <p>No data Found</p>
           </>
