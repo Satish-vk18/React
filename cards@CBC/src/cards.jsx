@@ -14,7 +14,7 @@ class Cards extends Component{
             <>
             {this.props.products.products.length > 0 ? (
                 <>
-                    {this.props.products.products.map((product,index)=>{
+                    {this.props.products.products.map((product,index)=>{        
                     return (
                         <>
                         <div style={this.divStyles}>
