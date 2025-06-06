@@ -57,7 +57,8 @@ function TodoList(){
                         id="input"/>
                 <button type="button" 
                         onClick={addNewTask}
-                        className="add-button" >
+                        className="add-button"
+                         >
                         Add
                 </button>
             </div>
@@ -67,10 +68,10 @@ function TodoList(){
                         <>
                             {tasks.map((task,index)=> 
                             <li key={index} className="item">
-                            <span className="text">{task}</span>
-                            <button className="delete-button" onClick={() => handleDelete(index)}>Delete</button>
-                            <button className="up-button" onClick={() => handleUp(index)}>Up</button>
-                            <button className="down-button" onClick={() => handleDown(index)}>Down</button>
+                                <span className="text">{task}</span>
+                                <button className="delete-button" onClick={() => handleDelete(index)}>Delete</button>
+                                <button className="up-button" onClick={() => handleUp(index)}>Up</button>
+                                <button className="down-button" onClick={() => handleDown(index)}>Down</button>
                             </li>
                     )}
                         </>
